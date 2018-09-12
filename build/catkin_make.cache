@@ -1,0 +1,2 @@
+new
+-DCATKIN_DEVEL_PREFIX=/home/bluesprite/ws/devel -DCMAKE_INSTALL_PREFIX=/home/bluesprite/ws/install -G Unix Makefiles
