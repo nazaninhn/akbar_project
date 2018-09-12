@@ -10,8 +10,8 @@ geometry_msgs::Twist message;
 
 void chatterCallback(const geometry_msgs::Twist::ConstPtr& msg)
 {
- x= msg->linear.x;
- y= msg->linear.y;
+ message.linear.x= msg->linear.x;
+ message.linear.y= msg->linear.y;
 message.angular.x =msg->angular.x;
 message.angular.y =msg->angular.y;
 
